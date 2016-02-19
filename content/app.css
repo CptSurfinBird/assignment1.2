@@ -1,0 +1,35 @@
+/* custom styles sheet */
+body {
+	background: lightslategrey;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	max-width: 1080;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0 auto;
+}
+
+#mainContainer {
+	outline: 2px dotted blue;
+	background: lightskyblue;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#myProjects {
+	background: lightskyblue;
+}
+
+main {
+	border: dashed yellow;
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer {
+	border: dashed green;
+	margin: 0 auto;
+	clear: both;
+}
